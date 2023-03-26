@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    /* width: 100px; */
+}
+.cdetail{
+    /* display: flex; */
+    gap: 10px;
+}
+.cname option{
+    width: 150px;
+    height: 30px;
+}
+tr{
+    text-align: center;
+    
+}
+tr th{
+    padding: 5px;
+}
+table{
+    margin-top: 20px;
+    overflow: scroll;
+}
+.bg-primary1{
+    /* background-color: rgb(190, 212, 247); */
+}
+tr input{
+    width: 90%;
+    margin:6px 0;
+}
+.fa-trash{
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(190, 212, 247);
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(161, 191, 240);
+
+    
+}
+.add .fa-plus{
+    background-color: green;
+    color: white;
+    padding: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.modal-body .row div{
+    padding: 10px;
+}
+.modal-body input{
+    padding: 5px;
+}
+.payment {
+    /* width: 95%; */
+    border: 0.1px solid rgb(134, 133, 133);
+    padding: 10px;
+    width:98%;
+    margin: 15px;
+}
+.borderr{
+    height: 130px;
+    width: 1px;
+    background-color: gray ;
+}
